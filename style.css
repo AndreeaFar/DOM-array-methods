@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Days+One&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f8cfd0;
+  font-family: 'Reddit Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 800px;
+}
+
+.box {
+  border: 1pc solid #fff;
+  background-color: #fbefef;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.box h1 {
+  text-align: center;
+}
+
+aside {
+  padding: 10px 20px;
+  width: 250px;
+  border-right: 1px solid #b8b7b7;
+}
+
+button {
+  background-color: #fbefef;
+  font-weight: bold;
+  font-size: 14px;
+  border: solid 1px #b8b7b7;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+button:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+main {
+  flex: 1;
+  padding: 10px 20px;
+}
+
+h2 {
+  border-bottom: 1px solid #b8b7b7;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+  margin: 0 0 20px;
+}
+
+h3 {
+  background-color: #fbefef;
+  border-bottom: 1px solid #b8b7b7;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+  margin: 20px 0 0;
+}
+
+.person {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
